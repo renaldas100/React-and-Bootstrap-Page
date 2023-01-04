@@ -1,7 +1,10 @@
 import logo from './logo.svg';
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.css';
-// import logo from './images/learning-student.svg';
+import logo1 from './assets/images/learning-student.svg';
+import logo2 from './assets/images/images.png';
+import logo3 from './assets/images/images3.png';
+import logo4 from './assets/images/man.svg';
 // const logo = require('./images/learning-student.svg); 
 
 function App() {
@@ -43,8 +46,9 @@ function App() {
               <div class="col-md-4 d-flex justify-content-center align-items-center px-2 py-2">
                 {/* <div class="rounded-circle bg-secondary px-4 py-4">Foto</div> */}
                 {/* <img src={require('./images/learning-student.svg')} /> */}
-                <img src="https://www.svgrepo.com/show/190738/learning-student.svg" class="img-fluid rounded-start" alt="test"></img>
+                {/* <img src="https://www.svgrepo.com/show/190738/learning-student.svg" class="img-fluid rounded-start" alt="test"></img> */}
                 {/* <img src="https://reactjs.org/logo-og.png" alt="React Image" /> */}
+                <img src={logo1} class="img-fluid rounded-start" alt="test"></img>
               </div>
               <div class="col-md-8">
                 <div class="card-body">
@@ -61,8 +65,9 @@ function App() {
               <div class="col-md-4 d-flex justify-content-center align-items-center px-2 py-2">
                 {/* <div class="rounded-circle bg-secondary px-4 py-4">Foto</div> */}
                 {/* <img src={require('./images/learning-student.svg')} /> */}
-                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRzy41Se0MDkOHC8ZiMqFoqbDpm9MkcW6Hlia_ClnEwhf9pJqF09gBByQllTVjKUV7YdJo&usqp=CAU" class="img-fluid rounded-start" alt="test"></img>
+                {/* <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRzy41Se0MDkOHC8ZiMqFoqbDpm9MkcW6Hlia_ClnEwhf9pJqF09gBByQllTVjKUV7YdJo&usqp=CAU" class="img-fluid rounded-start" alt="test"></img> */}
                 {/* <img src="https://reactjs.org/logo-og.png" alt="React Image" /> */}
+                <img src={logo2} class="img-fluid rounded-start" alt="test"></img>
               </div>
               <div class="col-md-8">
                 <div class="card-body">
@@ -83,8 +88,9 @@ function App() {
               <div class="col-md-4 d-flex justify-content-center align-items-center px-2 py-2">
                 {/* <div class="rounded-circle bg-secondary px-4 py-4">Foto</div> */}
                 {/* <img src={require('./images/learning-student.svg')} /> */}
-                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQQ1oLaDJlC-DvPibHvUAluSld6D4KG_Q00x6oMDubpL3K5lLeqWeKn8eUgbQ3ZiWjg6HM&usqp=CAU" class="img-fluid rounded-start" alt="test"></img>
+                {/* <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQQ1oLaDJlC-DvPibHvUAluSld6D4KG_Q00x6oMDubpL3K5lLeqWeKn8eUgbQ3ZiWjg6HM&usqp=CAU" class="img-fluid rounded-start" alt="test"></img> */}
                 {/* <img src="https://reactjs.org/logo-og.png" alt="React Image" /> */}
+                <img src={logo3} class="img-fluid rounded-start" alt="test"></img>
               </div>
               <div class="col-md-8">
                 <div class="card-body">
@@ -101,8 +107,9 @@ function App() {
               <div class="col-md-4 d-flex justify-content-center align-items-center px-2 py-2">
                 {/* <div class="rounded-circle bg-secondary px-4 py-4">Foto</div> */}
                 {/* <img src={require('./images/learning-student.svg')} /> */}
-                <img src="https://www.svgrepo.com/show/120243/man.svg" class="img-fluid rounded-start" alt="test"></img>
+                {/* <img src="https://www.svgrepo.com/show/120243/man.svg" class="img-fluid rounded-start" alt="test"></img> */}
                 {/* <img src="https://reactjs.org/logo-og.png" alt="React Image" /> */}
+                <img src={logo4} class="img-fluid rounded-start" alt="test"></img>
               </div>
               <div class="col-md-8">
                 <div class="card-body">
