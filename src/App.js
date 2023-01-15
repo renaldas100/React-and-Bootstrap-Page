@@ -5,6 +5,7 @@ import Product from './components/product';
 import productsData from './data/productsData';
 import Teachers from './components/teachers';
 import teachersData from './data/teachersData';
+import Skaiciuokle from './components/skaiciuokle';
 
 
 function App() {
@@ -29,6 +30,25 @@ function App() {
   }
 
 
+  /*
+ prekes.forEach((product)=>{
+  products.push(
+    <div class="col-md-4">
+      <Product product={product}></Product>
+    </div>
+  );
+ });
+ */
+
+/*
+products=prekes.map((product)=>{
+  return (
+  <div class="col-md-4">
+    <Product product={product}></Product>
+  </div>)
+});
+*/
+
   return (
     <div class="container-md">
       <div class="text-center fs-3 mt-4 mb-5">Programavimo kursai</div>
@@ -46,6 +66,14 @@ function App() {
         </div>
         
       </div>
+
+      <h3>Skaiciuokle</h3>
+      <div class="row mt-3">
+          <Skaiciuokle></Skaiciuokle>
+          
+      </div>
+
+
       
     </div>
   );
